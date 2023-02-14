@@ -1,0 +1,23 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:hi": "node -e 'require(\"./src/app/excel\").hi(\"asdf\")'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1310.0",
+    "axios": "^0.27.2",
+    "csv": "^6.2.6",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "qs": "^6.11.0",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.4.23"
+  }
+}
