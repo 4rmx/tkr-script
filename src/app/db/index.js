@@ -1,12 +1,5 @@
 const { MongoClient, Collection } = require('mongodb');
 
-// const username = 'mongo',
-//   password = 'act0Mongo',
-//   url = '192.168.82.202';
-// const client = new MongoClient(
-//   `mongodb://${username}:${password}@${url}:27017`
-// );
-
 const DB_NAME = 'manual';
 const URI = process.env.DB_URL;
 
